@@ -1,6 +1,6 @@
 import telebot,sqlite3
 
-API_KEY = "That's where CTRL + C/V your APIKEY"
+API_KEY = "That's where CTRL + V your APIKEY"
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['question','ask'])
